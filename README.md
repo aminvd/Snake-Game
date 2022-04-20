@@ -44,5 +44,8 @@ List of the different tasks assigned
 6. Create a more user friendly index.html page to view.
 7. add in directions for user to read
 
+## How do I test this application?
+Simply run the index.html file. The game will load up automatically and the snake will start moving right away. From this point guide the snake to the red apples to grow and increase score. 
+
 ## Roles 
 Vedant Amin - Solo Group
