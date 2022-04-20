@@ -12,24 +12,24 @@
 As a user, I want to be able to see and play the snake game for entertainment purposes. I also would like to have the game be more interactive by displaying certain information such as the current score so that I can compare my score with multiple trials. 
 
 Example 1
-Given: Snake Game data available 
-When: The user starts/runs the Snake Game application 
-Then: The window should load a working application of the snake moving. 
+<br>Given: Snake Game data available 
+<br>When: The user starts/runs the Snake Game application 
+<br>Then: The window should load a working application of the snake moving. 
 
 Example 2 
-Given: Snake Game data available 
-When: The user uses the up, down, left, and right key arrows. 
-Then: The snake should move according to the key arrow typed. 
+<br>Given: Snake Game data available 
+<br>When: The user uses the up, down, left, and right key arrows. 
+<br>Then: The snake should move according to the key arrow typed. 
 
 Example 3 
-Given: Snake Game data available 
-When: The user lets the snake eat the red apples. 
-Then: The snake should grow and increase by one cell block. 
+<br>Given: Snake Game data available 
+<br>When: The user lets the snake eat the red apples. 
+<br>Then: The snake should grow and increase by one cell block. 
 
 Example 4
-Given: Snake Game data available 
-When: The user lets the snake eat or run into its self. 
-Then: The game will restart and the snake will go back to the default size. 
+<br>Given: Snake Game data available 
+<br>When: The user lets the snake eat or run into its self. 
+<br>Then: The game will restart and the snake will go back to the default size. 
 
 ## Kanban Board
 
