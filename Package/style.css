@@ -1,14 +1,43 @@
 html, body {
-    height: 100%;
-    margin: 0;
-  }
+  margin: 0;
+  padding: 0;
+  background: #214b21;
+}
 
-  body {
-    background: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+body {
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  padding-top: 45px;
+}
   canvas {
     border: 1px solid white;
+    background: #000000;
+  }
+
+  h1 {
+    font-family: papyrus;
+    font-size: 40px;
+    color: rgb(202, 182, 2);
+    text-align:center;
+  }
+
+  h2 {
+    font-family: papyrus;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  h3 {
+    font-family: papyrus;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align:center;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: black;
+    grid-template-columns: repeat(2, 2fr);
   }
