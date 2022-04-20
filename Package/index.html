@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <title>Snake Game - Vedant </title>
-  <h1 style="color: rgb(255, 255, 255); 
-        
-            font-family: 'Papyrus'"
-            >Snake Game</h1>
-            
-    
-</head>
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">   
+    </head>
+
 <body>
-<canvas width="400" height="400" id="game"></canvas>
+  <div class="grid-container">
+    <div>
+      <p>
+ <h1 class="h1">Snake Game</h1>
+<h2 style="color:white">Current Score: </h2> <h2 class="scoreboard" style="color:white">0</h2>  
+<h3 class="h3">Directions: Use the up, down, left, and right arror keys to move the snake. Eat the apples to grow and avoid eating self.</h3>
+</p>   
+<p>
+</div>
+<div>
+<canvas width="750" height="750" id="game"></canvas>
+</div>
 <script src="src/board.js"></script>
 
 </script>
