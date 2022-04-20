@@ -1,21 +1,16 @@
 var canvas = document.getElementById('game');
 var context = canvas.getContext('2d');
-
+var scoreDisplayElem = document.querySelector('.scoreboard');
 var grid = 16;
 var count = 0;
-  
+var score = 0; 
+
 var snake = {
   x: 160,
   y: 160,
-  
- 
   dx: grid,
   dy: 0,
-  
-  
   cells: [],
-  
-  
   maxCells: 4
 };
 var apple = {
@@ -83,7 +78,7 @@ function loop() {
     if (cell.x === apple.x && cell.y === apple.y) {
       snake.maxCells++;
 
-       
+      scoreDisplayElem.innerHTML = ++score;
       apple.x = getRandomInt(0, 25) * grid;
       apple.y = getRandomInt(0, 25) * grid;
     }
@@ -99,7 +94,8 @@ function loop() {
         snake.maxCells = 4;
         snake.dx = grid;
         snake.dy = 0;
-
+        scoreDisplayElem.innerHTML = ' 0';
+        score = 0;
         apple.x = getRandomInt(0, 25) * grid;
         apple.y = getRandomInt(0, 25) * grid;
       }
