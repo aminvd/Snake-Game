@@ -31,17 +31,18 @@ Given: Snake Game data available
 When: The user lets the snake eat or run into its self. 
 Then: The game will restart and the snake will go back to the default size. 
 
-
-
-
-
-
-
-
-
-
-
-
-Link to my project's kanban 
+## Kanban Board
 
 https://ideaboardz.com/for/snake%20game%20aminvd/4404554
+
+List of the different tasks assigned 
+1. create packages and files for the game
+2. Create and update index.html file
+3. create and update style.css file
+4. create and update board.js file
+5. add in the mechanics of the snake game. Score, level, user points.
+6. Create a more user friendly index.html page to view.
+7. add in directions for user to read
+
+## Roles 
+Vedant Amin - Solo Group
