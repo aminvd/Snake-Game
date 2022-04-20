@@ -8,7 +8,7 @@
 - [x] The project is working and able to run with index.html 
 - [x] Submit the repository link and list of group members, if applicable, to Canvas.
 
-## User Stories
+## Funational User Stories
 As a user, I want to be able to see and play the snake game for entertainment purposes. I also would like to have the game be more interactive by displaying certain information such as the current score so that I can compare my score with multiple trials. 
 
 Example 1
